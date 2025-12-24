@@ -9,69 +9,105 @@
             font-family: 'Helvetica Neue', Arial, sans-serif;
             line-height: 1.6;
             color: #333;
-            max-width: 800px;
+            max-width: 850px;
             margin: 0 auto;
             padding: 40px 20px;
             background-color: #f4f4f4;
         }
-        .header-container {
+        .main-card {
             background: white;
             padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .header {
             text-align: center;
+            margin-bottom: 30px;
+        }
+        .badge {
+            display: inline-block;
+            background: #f1c40f; /* Upwork Gold */
+            color: #2c3e50;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9em;
+            margin-bottom: 15px;
+            text-transform: uppercase;
         }
         h1 {
             color: #2c3e50;
-            margin-bottom: 10px;
-            font-size: 2.5em;
+            margin: 10px 0;
+            font-size: 2.8em;
         }
-        .subtitle {
-            color: #7f8c8d;
-            font-size: 1.2em;
-            font-style: italic;
-            margin-bottom: 30px;
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 30px;
         }
-        .btn {
-            display: inline-block;
-            background: #2c3e50;
+        .section {
+            margin-bottom: 25px;
+        }
+        .cta-button {
+            display: block;
+            background: #14a800; /* Upwork Green */
             color: white;
-            padding: 12px 25px;
+            text-align: center;
+            padding: 18px;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 8px;
             font-weight: bold;
+            font-size: 1.2em;
+            margin: 40px 0;
+            transition: background 0.3s;
         }
+        .cta-button:hover {
+            background: #108a00;
+        }
+        .footer {
+            text-align: center;
+            font-size: 0.85em;
+            color: #7f8c8d;
+            margin-top: 50px;
+            line-height: 1.4;
+        }
+        strong { color: #2c3e50; }
     </style>
-</head><body>
+</head>
+<body>
 
-    <div class="header">
-        <img src="/lawLibrary.png" alt="Law Library" style="width:100%; height:auto; border-radius:8px; margin-bottom:20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-        <div class="badge">Top Rated Plus • Verified Specialist</div>
-        <h1>John Patricks</h1>
-        <p><strong>Senior Litigation Consultant & Case Architect</strong><br>
-        <em>Specializing in High-Stakes Employment, Defamation, and Intellectual Property Law</em></p>
-    </div>
+    <div class="main-card">
+        <div class="header">
+            <img src="lawLibrary.png" alt="Law Library" style="width:100%; height:auto; border-radius:8px; margin-bottom:25px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            
+            <div class="badge">Top Rated Plus • Verified Specialist</div>
+            <h1>John Patricks</h1>
+            <p style="font-size: 1.2em;"><strong>Senior Litigation Consultant & Case Architect</strong><br>
+            <em>Specializing in High-Stakes Employment, Defamation, and Intellectual Property Law</em></p>
+        </div>
 
-    <div class="section">
-        <h2>Expertise Across Jurisdictions</h2>
-        <p>With over 10 years of experience, I provide attorney-standard case preparation and substantive support for <strong>California</strong> and <strong>New York</strong> jurisdictions. I specialize in bridging the gap for self-represented (pro-se) litigants and lean law firms, ensuring that every filing is architected with precision and procedural accuracy.</p>
-    </div>
+        <div class="section">
+            <h2>Expertise Across Jurisdictions</h2>
+            <p>With over 10 years of experience, I provide attorney-standard case preparation and substantive support for <strong>California</strong> and <strong>New York</strong> jurisdictions. I specialize in bridging the gap for self-represented (pro-se) litigants and lean law firms, ensuring that every filing is architected with precision and procedural accuracy.</p>
+        </div>
 
-    <div class="section">
-        <h2>Education & Credentials</h2>
-        <ul>
-            <li><strong>Harvard Graduate School of Education:</strong> Education and Public Policy</li>
-            <li><strong>CSU Dominguez Hills:</strong> Paralegal Studies (Certified)</li>
-            <li><strong>Temple University:</strong> Communications</li>
-            <li><strong>Upwork Certified:</strong> Top Rated Plus (97% Job Success Score)</li>
-        </ul>
-    </div>
+        <div class="section">
+            <h2>Education & Credentials</h2>
+            <ul style="list-style-type: none; padding: 0;">
+                <li style="margin-bottom: 10px;">🎓 <strong>Harvard Graduate School of Education:</strong> Education and Public Policy</li>
+                <li style="margin-bottom: 10px;">⚖️ <strong>CSU Dominguez Hills:</strong> Paralegal Studies (Certified)</li>
+                <li style="margin-bottom: 10px;">🎤 <strong>Temple University:</strong> Communications</li>
+                <li style="margin-bottom: 10px;">⭐ <strong>Upwork Certified:</strong> Top Rated Plus (97% Job Success Score)</li>
+            </ul>
+        </div>
 
-    <a href="https://www.upwork.com/freelancers/johntrapper" class="cta-button">View Profile & Hire via Upwork</a>
+        <a href="https://www.upwork.com/freelancers/johntrapper" class="cta-button">View Profile & Hire via Upwork</a>
 
-    <div class="footer">
-        <p>Based in Long Beach, CA | Serving Clients Nationwide</p>
-        <p><em>Disclaimer: I am a certified paralegal, not an attorney. I do not provide legal advice or appear in court. All work is performed as a consultant for law firms or at the specific direction of self-represented litigants.</em></p>
+        <div class="footer">
+            <p>Based in Long Beach, CA | Serving Clients Nationwide</p>
+            <p><em>Disclaimer: I am a certified paralegal, not an attorney. I do not provide legal advice or appear in court. All work is performed as a consultant for law firms or at the specific direction of self-represented litigants.</em></p>
+        </div>
     </div>
 
 </body>
